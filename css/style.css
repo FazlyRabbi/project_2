@@ -1,0 +1,200 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit; }
+
+html {
+  font-size: 62.5%; }
+
+body {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  font-size: 1.6rem;
+  line-height: 1.7;
+  color: #3a3a3a;
+  box-sizing: border-box; }
+
+ul {
+  list-style: none; }
+
+a {
+  text-decoration: none; }
+
+.container {
+  padding: 5rem 18rem; }
+
+.btn--text {
+  position: absolute; }
+  .btn--text:link, .btn--text:active, .btn--text:visited {
+    margin-top: 2.5rem;
+    margin-left: 122.5rem;
+    text-decoration: none;
+    color: #6200ee;
+    font-weight: 600; }
+  .btn--text__right-arrow {
+    padding-left: 1rem; }
+
+.heading-primary {
+  font-size: 5.2rem;
+  color: #3a3a3a;
+  font-weight: 600;
+  line-height: 1.5; }
+
+.heading-small {
+  font-size: 2.8rem;
+  color: #3a3a3a;
+  font-weight: 500; }
+
+.heading-small--white {
+  color: white; }
+
+.heading-medium {
+  font-size: 3.8rem;
+  color: #3a3a3a;
+  font-weight: 600; }
+
+.text-price {
+  font-size: 2.4rem;
+  color: #3a3a3a;
+  font-weight: 500; }
+
+.btn:link, .btn:visited {
+  display: inline-block;
+  margin-top: 2rem;
+  text-decoration: none;
+  padding: 1rem 5rem;
+  border-radius: 100px;
+  font-weight: 600;
+  background-color: #6200ee;
+  color: white; }
+
+.btn__right-arrow {
+  padding-left: 1rem; }
+
+.brand__logo {
+  padding: 4rem 23rem;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border-top: 1px solid;
+  border-bottom: 1px solid;
+  border-image-slice: 1;
+  border-image-source: linear-gradient(to right, rgba(192, 204, 218, 0.1), rgba(192, 204, 218, 0.6), rgba(192, 204, 218, 0.1)); }
+
+.card {
+  height: 49rem;
+  width: 34rem;
+  border-radius: 5px;
+  box-shadow: 0 0 40px rgba(0, 0, 0, 0.15);
+  padding: 2rem 2rem; }
+  .card__img {
+    border-radius: 5px; }
+  .card__retting {
+    margin: 3rem 0; }
+    .card__retting ul {
+      display: flex; }
+      .card__retting ul i {
+        color: #ffa500;
+        font-size: 1.6rem; }
+    .card__retting .retting-text {
+      color: #5e6366;
+      margin-left: 1rem;
+      font-size: 1.4rem;
+      font-weight: 600; }
+    .card__retting > p {
+      color: #787885;
+      font-size: 1.4rem;
+      text-align: left;
+      margin-top: 1rem; }
+
+.header {
+  padding: 5rem 15rem; }
+  .header__top {
+    display: flex;
+    justify-content: space-between; }
+  .header__text-box > .text-logo {
+    font-size: 2.4rem;
+    font-weight: 700; }
+  .header__hero {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    justify-content: space-around;
+    padding: 10rem 0; }
+  .header__heading {
+    padding-right: 20rem; }
+  .header__heading p {
+    font-weight: 600;
+    text-align: left;
+    padding-right: 5rem; }
+  .header__featured {
+    padding-left: 30rem; }
+
+.navbar {
+  width: 30%; }
+  .navbar__items {
+    display: flex;
+    justify-content: space-around; }
+  .navbar__items li a {
+    display: block;
+    text-decoration: none;
+    color: #3a3a3a;
+    font-weight: 600; }
+
+.popular-collection {
+  position: relative; }
+  .popular-collection > h2 {
+    text-align: center; }
+  .popular-collection__cards {
+    padding: 8rem 20rem 0 20rem;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-items: center;
+    grid-row-gap: 5rem; }
+
+.featurd-product {
+  padding-top: 15rem;
+  padding-bottom: 15rem;
+  display: flex;
+  justify-content: space-around; }
+  .featurd-product__img {
+    width: 50%; }
+    .featurd-product__img img {
+      padding-left: 20rem; }
+  .featurd-product__content {
+    line-height: 2;
+    padding-left: 10rem; }
+    .featurd-product__content > p {
+      color: #5e6366;
+      padding-right: 25rem; }
+
+.footer {
+  background-color: #0a0826;
+  height: 22rem;
+  padding: 5rem;
+  text-align: center; }
+  .footer > p {
+    color: white;
+    font-weight: 400;
+    font-size: 1.4rem; }
+  .footer__link {
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+    .footer__link i {
+      display: inline-block;
+      color: white;
+      font-size: 2rem;
+      list-style: none;
+      padding-right: 2rem;
+      margin-top: 2rem;
+      cursor: pointer; }
+
+/* 
+COLORS:
+Light green: #7ed56f;
+Medium green : #55c57a;
+Dark green : #28b485; 
+*/
